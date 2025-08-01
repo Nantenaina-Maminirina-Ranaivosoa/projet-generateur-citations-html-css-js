@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6a89cc;
+    color: #333;
+    padding: 20px;
+}
+
+.quote-container{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
+
+#quote-text{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#quote-author{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #555;
+}
+#new-quote-btn{
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor : pointer;
+    transition: background-color 0.2s ease;
+
+}
+#new-quote-btn:hover {
+    background-color: #feb47b;
+}
